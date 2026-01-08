@@ -64,6 +64,7 @@ remoteok-scraping-project/
 └── reports/
     ├── analysis_report.pdf
     └── methodology.md
+    └── ethics_compliance.md
 
 ---
 
@@ -135,6 +136,21 @@ Each role contributed to a specific stage of the project lifecycle.
 
 ---
 
+## ⚖️ Ethics & Compliance
+
+This project follows ethical web scraping practices in compliance with the `robots.txt` rules of the RemoteOK website.
+
+Key compliance measures include:
+- Scraping only publicly accessible content
+- Respecting crawl-delay rules to avoid server overload
+- Avoiding disallowed paths and restricted URLs
+- Not impersonating blocked or restricted bots
+
+A detailed ethics and compliance assessment is documented in  
+`reports/ethics_compliance.md`.
+
+---
+
 ## Quality Assurance & Testing
 
 The Quality Assurance phase ensured the correctness, stability, and reproducibility of the complete data pipeline.
@@ -173,3 +189,4 @@ python src/data_cleaner.py
 4. Analyze the data:
 
 python src/analyzer.py
+
