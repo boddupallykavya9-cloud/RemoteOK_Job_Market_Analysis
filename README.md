@@ -135,6 +135,20 @@ Each role contributed to a specific stage of the project lifecycle.
 
 ---
 
+## Quality Assurance & Testing
+
+The Quality Assurance phase ensured the correctness, stability, and reproducibility of the complete data pipeline.
+
+- Verified scraper execution across multiple job roles without runtime failures.
+- Confirmed ethical scraping practices using controlled scrolling and delays.
+- Validated existence and integrity of raw scraped datasets.
+- Verified data cleaning notebook removes duplicates, handles nulls, and standardizes skill data.
+- Executed analysis and visualization notebook end-to-end without errors.
+- Confirmed accurate generation of skill demand charts.
+- Ensured consistent outputs across repeated executions.
+
+**QA Status:** All pipeline stages validated and approved for final use.
+---
 ## ✅ Conclusion
 
 This project demonstrates a complete **end-to-end data pipeline**, from raw data collection to meaningful insights and visual storytelling. It follows best practices in data handling, collaboration, and documentation.
@@ -157,4 +171,5 @@ python src/data_cleaner.py
 
 
 4. Analyze the data:
+
 python src/analyzer.py
